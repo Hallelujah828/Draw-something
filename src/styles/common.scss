@@ -1,0 +1,41 @@
+/* 文字限制 */
+.overflow-txt{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+.overflow-line{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.clear-input{
+  background:none;
+  outline:none;
+  border:0;
+}
+
+.clear-btn{
+  border:none;
+  border-radius:0;
+  outline:none;
+}
+  
+.clear-select, .clear-textarea{
+  appearance:none;
+  border:none;
+  outline: none;
+  background-color: transparent;
+}
+
+.clear-select::-ms-expand { 
+  display:none;
+}
+  
+.vel-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
