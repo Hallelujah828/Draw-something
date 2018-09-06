@@ -39,3 +39,27 @@
   justify-content: center;
   align-items: center;
 }
+.preview-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  padding: 0 10px;
+  box-sizing: border-box;
+  .preview-name{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+  }
+}
+.preview-label::before{
+  content: '预览';
+  position: absolute;
+  top: -33px;
+  font-size: 14px;
+  color: #606266;
+  line-height: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}

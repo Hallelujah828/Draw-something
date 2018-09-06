@@ -15,7 +15,7 @@
             </el-color-picker>
           </el-form-item>
           <div class="preview-wrap">
-            <div class="preview-avatar vel-flex" :style="{background:avatarBgColor}">
+            <div class="preview-avatar vel-flex preview-label" :style="{background:avatarBgColor}">
               <p class="preview-name overflow-txt">{{loginForm.nickName}}</p>
             </div>
           </div>
@@ -93,29 +93,6 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .preview-avatar{
-    width: 100px;
-    height: 30px;
-    border-radius: 6px;
-    position: relative;
-    padding: 0 10px;
-    box-sizing: border-box;
-    &::before{
-      content: '头像预览';
-      position: absolute;
-      left: 0;
-      top: -43px;
-      font-size: 14px;
-      color: #606266;
-      line-height: 40px;
-      box-sizing: border-box;
-    }
-    .preview-name{
-      width: 100%;
-      color: #fff;
-      text-align: center;
-    }
   }
   .login-btn{
     width: 100%;
