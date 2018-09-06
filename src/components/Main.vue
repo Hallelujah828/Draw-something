@@ -103,7 +103,7 @@ export default {
   data () {
     return {
       isStart: true, // 游戏开始
-      isPaint: false, // 是绘画玩家
+      isPaint: true, // 是绘画玩家
       players: [
         {
           name: '123',
